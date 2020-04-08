@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>轮播图</title>
+    <style>
+        .wrapper {
+            width: 400px;
+            height: 300px;
+            border: 1px solid #000;
+
+        }
+        .demo {
+            width: 400px;
+            height: 300px;
+            margin: 100px;
+            border: 1px solid #000;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper"></div>
+    <div class="demo"></div>
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        $('.wrapper').swiper({
+            imgList: ['../image/pic1.jpg', '../image/pic2.jpg', '../image/pic3.jpg'],
+            animateType: 'animate',
+            changeBtn: true,
+            showPointBtn: true,
+            isAuto: true,
+        });
+        $('.demo').swiper({
+            imgList: ['../image/pic1.jpg', '../image/pic2.jpg', '../image/pic3.jpg'],
+            animateType: 'fade',
+            changeBtn: true,
+            showPointBtn: false,
+            isAuto: false,
+        });
+    
+    </script>
+</body>
+</html>

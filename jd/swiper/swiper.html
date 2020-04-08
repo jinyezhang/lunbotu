@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            width: 500px;
+            height: 300px;
+            border: 1px solid #000;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper"></div>
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="./swiper.js"></script>
+    <script>
+        $('#wrapper').swiper({
+            imgList: ['../image/pic1.jpg', "../image/pic2.jpg", "../image/pic3.jpg", "../image/pic3.jpg"],
+            animateType: 'animate',
+            imgWidth: 250,
+            isAuto:true,
+        })
+    </script>
+</body>
+</html>

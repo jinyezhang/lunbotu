@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jq京东首页</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="J_event">
+        <a href="#" id="J_event_lk"></a>
+    </div>
+    <div class="shortcut">
+        <div class="w">
+            <div class="position"></div>
+            <ul class="nav">
+                <li>
+                    <a href="#">你好请登录</a>
+                    <a href="#" class="red">注册</a>
+                </li>
+                <span class="spacer"></span>
+                <li>
+                    <a href="#">我的订单</a>
+                </li>
+                <span class="spacer"></span>
+                <li id="myJD">
+                    <!-- <a href="#">我的京东</a>
+                    <div class="dropDown">
+                        <dl>
+                            <dd>
+                                <a href="#">待处理订单</a>
+                            </dd>
+                            <dd><a href="#">消息</a></dd>
+                            <dd>
+                                <a href="#">返修退换货</a>  
+                            </dd>
+                            <dd>
+                                <a href="#">降价商品</a>
+                            </dd>
+                            <dd>
+                                <a href="#">我的问答</a>
+                            </dd>
+                        </dl>
+                    </div> -->
+                </li>
+                <span class="spacer"></span>
+                <li>
+                    <a href="#">京东会员</a>
+                </li>
+                <span class="spacer"></span>
+                <li id="procurement">
+                    <!-- <a href="#" class="red">企业采购</a> -->
+                </li>
+                <span class="spacer"></span>
+                <li id="service">
+
+                </li>
+                <span class="spacer"></span>
+                <li id="bar-navs">
+                    <!-- <a href="#">网站导航</a> -->
+                </li>
+                <span class="spacer"></span>
+                <li>
+                    <a href="#">手机京东</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo"></div>
+        <div class="w">
+            <div class="search">
+                <div class="search-box">
+                    <input type="text" class="search-inp" id="search-inp" />
+                    <input type="button" value="搜索" id="search-btn">
+                    <div class="hotwords">
+                        <ul>
+                            <li><a href="#">爱的鲜味道</a></li>
+                            <li><a href="#">每99减50</a></li>
+                            <li><a href="#">超市元宵</a></li>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">情人节</a></li>
+                            <li><a href="#">高端礼盒</a></li>
+                            <li><a href="#">手机好礼</a></li>
+                            <li><a href="#">情侣礼物</a></li>
+                            <li><a href="#">电脑组件</a></li>
+                        </ul>
+                    </div>
+                    <ul id="shelper">
+                        <li>xxasdf</li>
+                    </ul>
+                </div>
+                <div class="settleup">
+                    我的购物车
+                </div>
+            </div>
+
+            <div class="navitems">
+                <ul>
+                    <li>秒杀
+                    </li>
+                    <li> 优惠券
+                    </li>
+                    <li> PLUS会员
+                    </li>
+                    <li> 闪购
+                    </li>
+                </ul>
+                <div class="spacer"></div>
+                <ul>
+                    <li> 拍卖
+                    </li>
+                    <li> 京东时尚
+                    </li>
+                    <li> 京东超市
+                    </li>
+                    <li> 京东生鲜
+                    </li>
+                </ul>
+                <div class="spacer"></div>
+                <ul>
+                    <li>海囤全球
+                    </li>
+                    <li> 京东金融</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="first">
+            <div class="fs1 fs">
+                <ul id="menu-list">
+                    <!-- <li>
+                        <a href="#">家用电器</a>
+                    </li>
+                    <li>
+                        <a href="#">手机</a>
+                        <span>/</span>
+                        <a href="#">运营商</a>
+                    </li> -->
+                </ul>
+                <div id="menu-content">
+                    <!-- <ul class="tabs">
+                        <li>家电馆</li>
+                        <li>镇乡专卖店</li>
+                        <li>家电服务</li>
+                    </ul>
+                    <div class="item-content">
+                        <dl>
+                            <dt>电视</dt>
+                            <dd>
+                                <a href="#">曲面电视</a>
+                                <a href="#">超薄电视</a>
+                                <a href="#">OLED电视</a>
+                                <a href="#">4K超清电视</a>
+                                <a href="#">55英寸</a>
+                                <a href="#">65英寸</a><a href="#">电视配件</a></dd>
+                        </dl>
+                    </div> -->
+                </div>
+            </div>
+            <div class="fs2 fs">
+                <div id="swiper"></div>
+            </div>
+            <div class="fs3 fs">
+                <div class="item item-1"></div>
+                <div class="item item-2"></div>
+                <div class="item item-3"></div>
+            </div>
+            <div class="fs4 fs">
+                <div class="user">
+
+                    <div class="user_inner user_plusundefined">
+                        <div class="J_user_avatar user_avatar">
+                            <a class="user_avatar_lk" href="//home.jd.com" target="_blank"
+                                clstag="h|keycount|head|login_01">
+                                <img src="https://misc.360buyimg.com/mtd/pc/common/img/no_login.jpg">
+                            </a>
+                        </div>
+                        <div class="user_show">
+                            <p class="user_tip">Hi~欢迎来到京东！</p>
+                            <p><a href="javascript:login();" class="user_login">登录</a><a href="javascript:regist();"
+                                    class="user_reg">注册</a></p>
+                        </div>
+                        <div class="user_profit"><a class="user_profit_lk" href="//xinren.jd.com/?channel=99"
+                                target="_blank" clstag="h|keycount|head|login_02">新人福利</a><a
+                                class="user_profit_lk user_profit_lk_plus"
+                                href="//plus.jd.com/index?flow_system=appicon&amp;flow_entrance=appicon3&amp;flow_channel=pc"
+                                target="_blank" clstag="h|keycount|head|login_03">PLUS会员</a></div>
+                    </div>
+
+                    <div class="show"></div>
+                    <div class="profit"></div>
+                </div>
+                <div class="news">
+                    <div class="news2">
+                        <div class="news_hd">
+                            <h5 class="news_tit">京东快报</h5><a
+                                href="#" target="_blank"
+                                class="news_more" >更多 <i class="iconfont"></i></a>
+                        </div>
+                        <ul class="news_list">
+                            <li class="news_item news_item__recommend"><a href="#"
+                                    target="_blank" class="news_link" ><span
+                                        class="news_tag">热门</span>华为确认放弃安卓，正式官宣麒麟OS系统</a></li>
+                            <li class="news_item news_item__recommend"><a href="#"
+                                    target="_blank" class="news_link"><span
+                                        class="news_tag">热议</span>华为宣布5G收费标准,多国运营商表示接受不了</a></li>
+                            <li class="news_item news_item__recommend"><a href="#"
+                                    target="_blank" class="news_link" ><span
+                                        class="news_tag">推荐</span>新iPhone发布,iPhone 8再见了!</a></li>
+                            <li class="news_item news_item__recommend"><a href="#"
+                                    target="_blank" class="news_link" ><span
+                                        class="news_tag">最新</span>真刺激！华为Mate20突然大调整，花粉开心了！</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-entry ">
+                        <ul>
+                            <li class="service-item item-frame"><a href="#"><i class="huafei"></i><span>话费</span></a></li>
+                            <li class="service-item item-frame"><a href="#"><i class="jipiao"></i><span>机票</span></a></li>
+                            <li class="service-item item-frame"><a href="#"><i class="jiudian"></i><span>酒店</span></a></li>
+                            <li class="service-item item-frame"><a href="#"><i class="youxi"></i><span>游戏</span></a></li>
+                            <li class="service-item"><a href="#"><i class="qiyegou"></i><span>企业购</span></a></li>
+                            <li class="service-item"><a href="#"><i class="jiayouka"></i><span>加油卡</span></a></li>
+                            <li class="service-item"><a href="#"><i class="dianyingpiao"></i><span>电影票</span></a></li>
+                            <li class="service-item"><a href="#"><i class="huochepiao"></i><span>火车票</span></a></li>
+                            <li class="service-item"><a href="#"><i class="zhongchou"></i><span>众筹</span></a></li>
+                            <li class="service-item"><a href="#"><i class="licai"></i><span>理财</span></a></li>
+                            <li class="service-item"><a href="#"><i class="lipinka"></i><span>礼品卡</span></a></li>
+                            <li class="service-item"><a href="#"><i class="baitiao"></i><span>白条</span></a></li>
+                        </ul>          
+                    </div>
+                    <div class="service-pop">123
+                        <span class="close" id="close"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sk">
+            <div class="sk-left"></div>
+            <div class="sk-mid"></div>
+            <div class="sk-right"></div>
+        </div>
+    </div>
+    <script src="./jquery-3.3.1.js"></script>
+    <script src="./dropdown/index.js"></script>
+    <script src="./swiper/swiper.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
